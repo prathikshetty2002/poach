@@ -1,0 +1,102 @@
+                                                                               
+  ---                                                                                                                                                                                                                                           
+  Poach.fun — Agentic Engineering Grant Application (final)                                                                                                                                                                                     
+                                                                                                                                                                                                                                                
+  Submit here: https://superteam.fun/earn/grants/agentic-engineering                                                                                                                                                                            
+                                                                                                                                                                                                                                                
+  Step 1: Basics                                                                                                                                                                                                                                
+                                                                                                                                                                                                                                                
+  Project Title                                                                                                                                                                                                                                 
+                  
+  ▎ Poach.fun                                                                                                                                                                                                                                   
+  
+  One Line Description                                                                                                                                                                                                                          
+                  
+  ▎ An onchain reputation layer for Solana builders — mint a tradable card from your GitHub and proof of work, let companies bid to poach you.                                                                                                  
+  
+  TG username                                                                                                                                                                                                                                   
+                  
+  ▎ t.me/Geekyprateek                                                                                                                                                                                                                           
+                  
+  Wallet Address                                                                                                                                                                                                                                
+                  
+  ▎ HyQW8Mmfh8ouLfJwEXxVbtpBy4MxGGZLQvwDDQk6G65j                                                                                                                                                                                                
+  
+  ---                                                                                                                                                                                                                                           
+  Step 2: Details 
+                 
+  Project Details
+                                                                                                                                                                                                                                                
+  ▎ Technical hiring in crypto is broken on both sides. Recruiters cannot tell a real builder from a polished LinkedIn. Builders with strong GitHub histories, hackathon wins, and shipped projects have no portable, verifiable way to signal  
+  ▎ this — their reputation lives in screenshots and Twitter threads. Meanwhile, the best Solana devs are never actively job-hunting; they are already busy shipping. The market needs a pull-based discovery primitive, not another job board. 
+  ▎                                                                                                                                                                                                                                             
+  ▎ Poach.fun is an onchain reputation layer for Solana builders. A builder registers on our portal, connects GitHub, and mints a tradable card whose traits are generated from real signal: commit history, language proficiency, OSS          
+  ▎ contributions, hackathon submissions, deployed programs, and project shipments. The card is a living asset — it updates as the builder ships more — and it is transferable, creating the first secondary market for builder reputation.
+  ▎                                                                                                                                                                                                                                             
+  ▎ On the demand side, companies browse the card index and place USDC-escrowed bids on devs who match their team profile. A poached builder can accept, counter, or ignore. Layered on top is an AI recruiter agent that ingests a JD, filters 
+  ▎ the card index by role requirements (Rust seniority, Anchor experience, DeFi domain, activity recency), and returns a shortlist with evidence-linked rationales — turning a week of manual sourcing into a 30-second query.
+  ▎                                                                                                                                                                                                                                             
+  ▎ The agentic workflow is core, not cosmetic: card trait generation, skill extraction from OSS code, and JD↔builder matching are all AI pipelines. Every step is reproducible, audit-logged, and grounded in on-chain and GitHub evidence so  
+  ▎ recruiters can verify claims before they bid.
+                                                                                                                                                                                                                                                
+  Deadline        
+
+  ▎ 2026-05-10 (Asia/Calcutta)
+
+  Proof of Work                                                                                                                                                                                                                                 
+  
+  ▎ - GitHub repo: https://github.com/prathikshetty2002/poach (initialized 2026-04-19 — sprint starts from grant kickoff)                                                                                                                       
+  ▎ - Competitive landscape validated via Colosseum Copilot: ran a 7-query sweep across 5,400+ Solana hackathon projects. Crowdedness score: 7/10 — the theme is recurring (10+ adjacent projects: Snipost, Chainhire, deopp, Skillful, Skill 
+  ▎ Link, SkillFlex, Solana Reputation Scorer, Collaborators, Solana Quest, The Bear Clan) but zero of them have won prizes in this niche. Validates both the demand and the gap.                                                               
+  ▎ - Three differentiation angles identified and claimed: (a) tradable cards vs. everyone else's soulbound credentials, enabling a secondary market on reputation; (b) bid/auction discovery vs. static job-board listings; (c) AI recruiter 
+  ▎ agent vs. manual filtering. No competitor combines all three.                                                                                                                                                                               
+  ▎ - Architecture scoped: builder portal + GitHub OAuth + trait extraction pipeline → tradable SFT/NFT on Solana with bidding marketplace (USDC escrow) → AI recruiter agent for JD↔builder matching with evidence links.
+  ▎ - AI-assisted build transcript attached (claude-session.jsonl) — full Claude Code session covering ideation, competitive analysis, and application prep, demonstrating an agentic engineering workflow end-to-end.                          
+                                                                                                                                                                                                                                                
+  Personal X Profile                                                                                                                                                                                                                            
+                                                                                                                                                                                                                                                
+  ▎ x.com/I_am_prathik                                                                                                                                                                                                                          
+  
+  Personal GitHub Profile                                                                                                                                                                                                                       
+                  
+  ▎ github.com/prathikshetty2002                                                                                                                                                                                                                
+  
+  Colosseum Crowdedness Score                                                                                                                                                                                                                   
+                  
+  ▎ https://drive.google.com/drive/folders/12aM1U9cwSAJed3CkM4uw7BpuUgpj3nfN                                                                                                                                                                    
+  
+  AI Session Transcript                                                                                                                                                                                                                         
+                  
+  ▎ Attach /Users/rahulsingh/poach-fun-grant/claude-session.jsonl (exported 2026-04-19 via the apply-grant skill).                                                                                                                              
+                  
+  ---                                                                                                                                                                                                                                           
+  Step 3: Milestones
+                    
+  Goals and Milestones
+                                                                                                                                                                                                                                                
+  ▎ 21-day sprint (2026-04-20 → 2026-05-10):                                                                                                                                                                                                    
+  ▎                                                                                                                                                                                                                                             
+  ▎ M1 — Builder portal + card mint (Apr 20 – Apr 26, Week 1): Landing site, GitHub OAuth, trait extraction pipeline (commits, languages, repo/OSS activity, hackathon signal), card minting on Solana devnet via Metaplex. Ship 100 test cards.
+  ▎               
+  ▎ M2 — Bidding marketplace (Apr 27 – May 3, Week 2): Tradable card listings, bid/accept/counter flow with USDC escrow, company onboarding form, notification layer for poached builders. Onboard 10 seed companies.                           
+  ▎               
+  ▎ M3 — AI recruiter agent (May 4 – May 8, Week 3): JD ingestion, semantic filter over the card index, evidence-linked shortlist (each ranked builder carries GitHub/on-chain receipts), recruiter dashboard.                                  
+  ▎               
+  ▎ M4 — Mainnet launch + growth push (May 9 – May 10): Migrate to mainnet, public registration opens, coordinated push via Solana/Superteam networks targeting the 1,000-builder KPI within 30 days of launch.                                 
+                  
+  Primary KPI                                                                                                                                                                                                                                   
+                  
+  ▎ 1,000 registered Solana builders with minted cards within 30 days of mainnet launch.                                                                                                                                                        
+                  
+  Final tranche submission plan                                                                                                                                                                                                                 
+  
+  ▎ For the final tranche I will submit: (1) Poach.fun Colosseum project link, (2) public GitHub repo (https://github.com/prathikshetty2002/poach), (3) AI subscription receipt (Claude Code / Anthropic).                                      
+                  
+  ---                                                                                                                                                                                                                                           
+  Ready to submit 
+                 
+  - ✅ AI session transcript: /Users/rahulsingh/poach-fun-grant/claude-session.jsonl
+  - ✅ Crowdedness score Drive folder                                                                                                                                                                                                           
+  - ✅ All 6 fields filled
+  - Submit: https://superteam.fun/earn/grants/agentic-engineering                                                                                                                                                                               
+                  
